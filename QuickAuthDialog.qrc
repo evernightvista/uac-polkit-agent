@@ -7,7 +7,6 @@
     <file>qml/RejectPasswordPathAnimation.qml</file>
     <file>qml/MobileDialogWindow.qml</file>
 
-    <file>qml/res/frame.png</file>
     <file>qml/res/viewitem.svg</file>
  </qresource>
 </RCC>

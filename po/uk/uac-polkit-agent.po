@@ -128,12 +128,12 @@ msgstr "Джерело запиту:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Контроль облікових записів користувачів"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Щоб продовжити, введіть пароль адміністратора та натисніть Гаразд."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

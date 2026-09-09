@@ -126,12 +126,14 @@ msgstr "Gyártó:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Felhasználói fiókok felügyelete"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
 msgstr ""
+"A folytatáshoz írjon be egy rendszergazdai jelszót, majd kattintson az OK "
+"gombra."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

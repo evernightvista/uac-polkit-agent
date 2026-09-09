@@ -64,6 +64,8 @@ msgstr "Já está outro cliente a autenticar-se; por favor, tente de novo."
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
 msgstr ""
+"Não há nenhum utilizador para autenticar. Verifique a configuração do seu "
+"sistema."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
@@ -79,12 +81,12 @@ msgstr "Ocorreu um erro de autenticação; por favor, tente de novo."
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Utilizador: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Mudar…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -100,12 +102,12 @@ msgstr "Detalhes"
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: qml/MobileQuickAuthDialog.qml:201 qml/QuickAuthDialog.qml:249
 #, kde-format
@@ -125,12 +127,14 @@ msgstr "Fornecedor:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Controlo de Contas de Utilizador"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
 msgstr ""
+"Para continuar, escreva uma palavra-passe de administrador e, em seguida, "
+"clique em OK."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

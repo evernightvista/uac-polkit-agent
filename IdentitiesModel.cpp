@@ -1,10 +1,8 @@
 /*  This file is part of the KDE project
     SPDX-FileCopyrightText: 2021 Aleix Pol Gonzalez <aleixpol@kde.org>
     SPDX-FileCopyrightText: 2023 Devin Lin <devin@kde.org>
-
     SPDX-License-Identifier: GPL-2.0-or-later
 */
-
 #include "IdentitiesModel.h"
 #include <KLocalizedString>
 #include <KUser>
@@ -30,9 +28,9 @@ void IdentitiesModel::setIdentities(const PolkitQt1::Identity::List &identities,
     // For each user
     for (const PolkitQt1::Identity &identity : identities) {
         // First check to see if the user is valid
-
         const QString identityString = identity.toString();
         qDebug() << "User: " << identityString;
+
         const KUser user(QString(identityString).remove("unix-user:"));
         if (!user.isValid()) {
             qWarning() << "User invalid: " << user.loginName();
@@ -52,10 +50,12 @@ void IdentitiesModel::setIdentities(const PolkitQt1::Identity::List &identities,
         if (!user.faceIconPath().isEmpty()) {
             icon = user.faceIconPath();
         } else {
-            icon = "user-identity";
+            icon = "cs-user-accounts";
         }
+
         m_ids.append(Id{icon, display, identityString, user.loginName()});
     }
+
     endResetModel();
 }
 
@@ -86,10 +86,10 @@ Qt::ItemFlags IdentitiesModel::flags(const QModelIndex &index) const
 {
     if (!index.isValid())
         return {};
+
     auto ret = Qt::ItemNeverHasChildren | Qt::ItemNeverHasChildren;
     if (!m_ids[index.row()].userRole.isEmpty())
         ret |= Qt::ItemIsEnabled;
-
     return ret;
 }
 

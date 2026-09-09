@@ -65,6 +65,8 @@ msgstr ""
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
 msgstr ""
+"Барои санҷиши ҳаққоният ягон корбар вуҷуд надорад. Лутфан, конфигуратсияи "
+"системаи худро тафтиш кунед."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
@@ -80,12 +82,12 @@ msgstr "Санҷиши ҳаққоният қатъ шуд, лутфан, аз н
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Корбар: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Иваз кардан…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -101,12 +103,12 @@ msgstr "Тафсилот"
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "Бекор кардан"
 
 #: qml/MobileQuickAuthDialog.qml:201 qml/QuickAuthDialog.qml:249
 #, kde-format
@@ -126,12 +128,12 @@ msgstr "Таъмингар:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Назорати ҳисобҳои корбар"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Барои идома, ниҳонвожаи мудирро ворид кунед ва пас аз он OK-ро пахш кунед."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

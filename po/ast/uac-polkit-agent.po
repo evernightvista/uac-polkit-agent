@@ -20,7 +20,7 @@ msgstr ""
 #: IdentitiesModel.cpp:27
 #, kde-format
 msgid "Select User"
-msgstr ""
+msgstr "Seleicionar usuariu"
 
 #: IdentitiesModel.cpp:45
 #, kde-format
@@ -63,72 +63,74 @@ msgstr "Yá hai otru veceru autenticándose. Volvi tentalo dempués."
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
 msgstr ""
+"Nun hai nengún usuariu col que autenticase. Comprueba la configuración del "
+"sistema."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
 #, kde-format
 msgid "Authentication Required"
-msgstr ""
+msgstr "Ríquese autenticación"
 
 #: qml/MobileQuickAuthDialog.qml:57 qml/QuickAuthDialog.qml:357
 #, kde-format
 msgid "Authentication failure, please try again."
-msgstr ""
+msgstr "Falló l'autenticación, volvi tentalo."
 
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Usuariu: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Camudar…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, kde-format
 msgid "Password…"
-msgstr ""
+msgstr "Contraseña…"
 
 #: qml/MobileQuickAuthDialog.qml:175
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "Aceptar"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #: qml/MobileQuickAuthDialog.qml:201 qml/QuickAuthDialog.qml:249
 #, kde-format
 msgid "Action:"
-msgstr ""
+msgstr "Aición:"
 
 #: qml/MobileQuickAuthDialog.qml:205 qml/QuickAuthDialog.qml:215
 #, kde-format
 msgid "ID:"
-msgstr ""
+msgstr "ID:"
 
 #: qml/MobileQuickAuthDialog.qml:209 qml/QuickAuthDialog.qml:226
 #, kde-format
 msgid "Vendor:"
-msgstr ""
+msgstr "Fornidor:"
 
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Control de cuentes d'usuariu"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Pa siguir, escribi una contraseña d'alministrador y depués calca n'Aceptar."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

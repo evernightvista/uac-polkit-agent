@@ -62,7 +62,7 @@ msgstr ""
 #, kde-format
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
-msgstr ""
+msgstr "Tidak ada pengguna untuk diautentikasi. Periksa konfigurasi sistem Anda."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
@@ -78,12 +78,12 @@ msgstr "Kegagalan autentikasi, silakan coba kembali."
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Pengguna: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Ganti…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -99,12 +99,12 @@ msgstr "Perincian"
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
 #: qml/MobileQuickAuthDialog.qml:201 qml/QuickAuthDialog.qml:249
 #, kde-format
@@ -124,12 +124,12 @@ msgstr "Vendor:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Kontrol Akun Pengguna"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Untuk melanjutkan, ketik kata sandi administrator, lalu klik OK."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

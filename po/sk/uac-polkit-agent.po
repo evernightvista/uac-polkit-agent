@@ -62,6 +62,8 @@ msgstr "Iný klient už vykonáva overovanie, prosím skúste to neskôr znovu."
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
 msgstr ""
+"Neexistuje žiadny používateľ, za ktorého by sa bolo možné overiť. "
+"Skontrolujte konfiguráciu systému."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
@@ -77,12 +79,12 @@ msgstr "Overenie zlyhalo, prosím, skúste to znovu."
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Používateľ: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Prepínať…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -98,7 +100,7 @@ msgstr "Detaily"
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
@@ -123,12 +125,12 @@ msgstr "Predajca:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Riadenie používateľských účtov"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Ak chcete pokračovať, zadajte heslo správcu a potom kliknite na tlačidlo OK."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

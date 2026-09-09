@@ -128,12 +128,12 @@ msgstr "Hornitzailea:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Erabiltzaile-kontuen kontrola"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Jarraitzeko, idatzi administratzaile-pasahitza eta egin klik Ados botoian."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

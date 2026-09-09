@@ -128,12 +128,12 @@ msgstr "Вытворца:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Кантроль уліковых запісаў"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Каб працягнуць, увядзіце пароль адміністратара і націсніце Добра."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

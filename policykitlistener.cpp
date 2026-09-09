@@ -191,7 +191,9 @@ void PolicyKitListener::finishObtainPrivilege()
         m_dialog.data()->authenticationFailure();
 
         if (m_numTries < 3) {
-            m_session.data()->deleteLater();
+            if (!m_session.isNull()) {
+                m_session.data()->deleteLater();
+            }
 
             tryAgain();
             return;
@@ -285,6 +287,9 @@ void PolicyKitListener::dialogCanceled()
 
 void PolicyKitListener::userSelected()
 {
+    if (m_dialog.isNull()) {
+        return;
+    }
     m_selectedUser = m_dialog.data()->adminUserSelected();
     // If some user is selected we must destroy existing session
     if (!m_session.isNull()) {

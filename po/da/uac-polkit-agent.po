@@ -62,7 +62,7 @@ msgstr "En anden klient godkender allerede, prøv igen senere."
 #, kde-format
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
-msgstr ""
+msgstr "Der er ingen bruger at autentificere som. Kontrollér din systemkonfiguration."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
@@ -78,12 +78,12 @@ msgstr "Autentificering mislykkedes, prøv igen."
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Bruger: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Skift…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -99,7 +99,7 @@ msgstr "Detaljer"
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
@@ -124,12 +124,12 @@ msgstr "Leverandør:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Brugerkontokontrol"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Skriv en administratoradgangskode for at fortsætte, og klik derefter på OK."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

@@ -65,6 +65,8 @@ msgstr "Už se ověřuje jiný klient. Prosím, zkuste to později."
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
 msgstr ""
+"Žádný uživatel, kterým by bylo možné se ověřit. Zkontrolujte konfiguraci "
+"systému."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
@@ -125,12 +127,12 @@ msgstr "Dodavatel:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Řízení uživatelských účtů"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Chcete-li pokračovat, zadejte heslo správce a klikněte na OK."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

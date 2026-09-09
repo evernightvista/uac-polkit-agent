@@ -60,9 +60,21 @@ QuickAuthDialog::QuickAuthDialog(const QString &actionId,
         engine->load("qrc:/qml/QuickAuthDialog.qml");
     }
 
+    if (engine->rootObjects().isEmpty()) {
+        // constFirst() on an empty list would be a silent segfault. The QML
+        // engine has already printed the actual error right above this line.
+        qFatal("Failed to load the authentication dialog QML, aborting");
+    }
+
     m_theDialog = qobject_cast<QQuickWindow *>(engine->rootObjects().constFirst());
+    if (!m_theDialog) {
+        qFatal("Failed to cast QML root object to QQuickWindow, aborting");
+    }
 
     auto idents = qobject_cast<IdentitiesModel *>(m_theDialog->property("identitiesModel").value<QObject *>());
+    if (!idents) {
+        qFatal("Failed to obtain IdentitiesModel from QML dialog, aborting");
+    }
     idents->setIdentities(identities, false);
     if (!identities.isEmpty()) {
         int initialIndex = std::max(0, idents->indexForUser(KUser().loginName()));
@@ -84,47 +96,76 @@ QString QuickAuthDialog::actionId() const
 
 QString QuickAuthDialog::password() const
 {
+    if (!m_theDialog) {
+        return {};
+    }
     return m_theDialog->property("password").toString();
 }
 
 void QuickAuthDialog::showError(const QString &message)
 {
+    if (!m_theDialog) {
+        return;
+    }
     m_theDialog->setProperty("inlineMessageType", Error);
     m_theDialog->setProperty("inlineMessageText", message);
 }
 
 void QuickAuthDialog::showInfo(const QString &message)
 {
+    if (!m_theDialog) {
+        return;
+    }
     m_theDialog->setProperty("inlineMessageType", Information);
     m_theDialog->setProperty("inlineMessageText", message);
 }
 
 PolkitQt1::Identity QuickAuthDialog::adminUserSelected() const
 {
+    if (!m_theDialog) {
+        return {};
+    }
     return PolkitQt1::Identity::fromString(m_theDialog->property("selectedIdentity").toString());
 }
 
 void QuickAuthDialog::authenticationFailure()
 {
-    QTimer::singleShot(0, m_theDialog, SLOT(authenticationFailure()));
+    if (!m_theDialog) {
+        return;
+    }
+    // Use QMetaObject::invokeMethod instead of the deprecated
+    // QTimer::singleShot(receiver, SLOT(...)) form.  The QML-side
+    // authenticationFailure() is a QML function, not a C++ slot, so it
+    // can only be reached through the string-based meta-object lookup.
+    QMetaObject::invokeMethod(m_theDialog, "authenticationFailure", Qt::QueuedConnection);
 }
 
 void QuickAuthDialog::show()
 {
+    if (!m_theDialog) {
+        return;
+    }
     KNotification *notification = new KNotification("authenticate");
     notification->setText(i18n("Authentication Required"));
     notification->sendEvent();
-    QTimer::singleShot(0, m_theDialog, SLOT(show()));
+    QTimer::singleShot(0, m_theDialog, &QWindow::show);
 }
 
 void QuickAuthDialog::hide()
 {
-    QTimer::singleShot(0, m_theDialog, SLOT(hide()));
+    if (!m_theDialog) {
+        return;
+    }
+    QTimer::singleShot(0, m_theDialog, &QWindow::hide);
 }
 
 void QuickAuthDialog::request([[maybe_unused]] const QString &request, [[maybe_unused]] bool echo)
 {
-    QTimer::singleShot(0, m_theDialog, SLOT(request()));
+    if (!m_theDialog) {
+        return;
+    }
+    // QML-side request() is a QML function — use invokeMethod, not SLOT().
+    QMetaObject::invokeMethod(m_theDialog, "request", Qt::QueuedConnection);
 }
 
 #include "moc_QuickAuthDialog.cpp"

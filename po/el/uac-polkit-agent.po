@@ -65,7 +65,7 @@ msgstr ""
 #, kde-format
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
-msgstr ""
+msgstr "Δεν υπάρχει χρήστης για ταυτοποίηση. Ελέγξτε τη διαμόρφωση του συστήματός σας."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
@@ -81,12 +81,12 @@ msgstr "Η πιστοποίηση απέτυχε, παρακαλώ προσπα�
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Χρήστης: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Εναλλαγή…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, kde-format
@@ -126,12 +126,14 @@ msgstr "Προμηθευτής:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Έλεγχος λογαριασμών χρηστών"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
 msgstr ""
+"Για να συνεχίσετε, πληκτρολογήστε έναν κωδικό πρόσβασης διαχειριστή και "
+"κάντε κλικ στο Εντάξει."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

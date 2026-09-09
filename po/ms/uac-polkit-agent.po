@@ -27,17 +27,17 @@ msgstr "Pilih Pengguna"
 #, kde-format
 msgctxt "%1 is the full user name, %2 is the user login name"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: main.cpp:49
 #, kde-format
 msgid "(c) 2009 Red Hat, Inc."
-msgstr ""
+msgstr "© 2009 Red Hat, Inc."
 
 #: main.cpp:50
 #, kde-format
 msgid "Lukáš Tinkl"
-msgstr ""
+msgstr "Lukáš Tinkl"
 
 #: main.cpp:50
 #, fuzzy, kde-format
@@ -47,7 +47,7 @@ msgstr "Penyelenggara"
 #: main.cpp:51
 #, kde-format
 msgid "Jaroslav Reznik"
-msgstr ""
+msgstr "Jaroslav Reznik"
 
 #: main.cpp:51
 #, fuzzy, kde-format
@@ -57,34 +57,34 @@ msgstr "Penyelenggara"
 #: policykitlistener.cpp:90
 #, kde-format
 msgid "Another client is already authenticating, please try again later."
-msgstr ""
+msgstr "Klien lain sedang mengesahkan, sila cuba lagi kemudian."
 
 #: policykitlistener.cpp:97
 #, kde-format
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
-msgstr ""
+msgstr "Tiada pengguna untuk disahkan. Sila semak konfigurasi sistem anda."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
 #, kde-format
 msgid "Authentication Required"
-msgstr ""
+msgstr "Pengesahan Diperlukan"
 
 #: qml/MobileQuickAuthDialog.qml:57 qml/QuickAuthDialog.qml:357
 #, kde-format
 msgid "Authentication failure, please try again."
-msgstr ""
+msgstr "Pengesahan gagal, sila cuba lagi."
 
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Pengguna: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Tukar…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -95,12 +95,12 @@ msgstr "Katalaluan:"
 #: qml/MobileQuickAuthDialog.qml:175
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "Butiran"
 
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, fuzzy, kde-format
@@ -115,7 +115,7 @@ msgstr "Tindakan:"
 #: qml/MobileQuickAuthDialog.qml:205 qml/QuickAuthDialog.qml:215
 #, kde-format
 msgid "ID:"
-msgstr ""
+msgstr "ID:"
 
 #: qml/MobileQuickAuthDialog.qml:209 qml/QuickAuthDialog.qml:226
 #, fuzzy, kde-format
@@ -125,12 +125,12 @@ msgstr "Vendor:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Kawalan Akaun Pengguna"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Untuk meneruskan, taip kata laluan pentadbir, dan kemudian klik OK."
 
 #, fuzzy, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

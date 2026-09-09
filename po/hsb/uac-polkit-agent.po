@@ -65,6 +65,8 @@ msgstr ""
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
 msgstr ""
+"Njeje žadyn wužiwar za awtentifikaciju. Přeprošće swoju systemowu "
+"konfiguraciju."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
@@ -80,12 +82,12 @@ msgstr "Zmylk awtentifikacije, prošu spytajće hišće raz."
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Wužiwar: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Přepinyć…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -101,12 +103,12 @@ msgstr "Nadrobnosće"
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "W porjadku"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "Přetorhnyć"
 
 #: qml/MobileQuickAuthDialog.qml:201 qml/QuickAuthDialog.qml:249
 #, kde-format
@@ -116,7 +118,7 @@ msgstr "Akcija:"
 #: qml/MobileQuickAuthDialog.qml:205 qml/QuickAuthDialog.qml:215
 #, kde-format
 msgid "ID:"
-msgstr ""
+msgstr "ID:"
 
 #: qml/MobileQuickAuthDialog.qml:209 qml/QuickAuthDialog.qml:226
 #, kde-format
@@ -126,12 +128,14 @@ msgstr "Fabrikat:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Kontrola wužiwarskich kontow"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
 msgstr ""
+"Zo dalšim předźěłanjem zapodajće administratorowe hesło a klikńće na W "
+"porjadku."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

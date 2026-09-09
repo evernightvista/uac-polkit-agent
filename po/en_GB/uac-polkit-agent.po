@@ -124,12 +124,12 @@ msgstr "Vendor:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "User Account Control"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "To continue, type an administrator password, and then click OK."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

@@ -21,33 +21,33 @@ msgstr ""
 #: IdentitiesModel.cpp:27
 #, kde-format
 msgid "Select User"
-msgstr ""
+msgstr "ഉപയോക്താവിനെ തിരഞ്ഞെടുക്കുക"
 
 #: IdentitiesModel.cpp:45
 #, kde-format
 msgctxt "%1 is the full user name, %2 is the user login name"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: main.cpp:49
 #, kde-format
 msgid "(c) 2009 Red Hat, Inc."
-msgstr ""
+msgstr "© 2009 Red Hat, Inc."
 
 #: main.cpp:50
 #, kde-format
 msgid "Lukáš Tinkl"
-msgstr ""
+msgstr "Lukáš Tinkl"
 
 #: main.cpp:50
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "പരിപാലകൻ"
 
 #: main.cpp:51
 #, kde-format
 msgid "Jaroslav Reznik"
-msgstr ""
+msgstr "Jaroslav Reznik"
 
 #: main.cpp:51
 #, kde-format
@@ -58,78 +58,80 @@ msgstr "പണ്ടത്തെ പരിപാലകൻ"
 #, kde-format
 msgid "Another client is already authenticating, please try again later."
 msgstr ""
+"മറ്റൊരു ക്ലയന്റ് ഇതിനകം പ്രാമാണീകരിക്കുന്നുണ്ട്, ദയവായി പിന്നീട് വീണ്ടും "
+"ശ്രമിക്കുക."
 
 #: policykitlistener.cpp:97
 #, kde-format
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
-msgstr ""
+msgstr "പ്രാമാണീകരിക്കാൻ ഉപയോക്താവ് ഇല്ല. നിങ്ങളുടെ സിസ്റ്റം കോൺഫിഗറേഷൻ പരിശോധിക്കുക."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
 #, kde-format
 msgid "Authentication Required"
-msgstr ""
+msgstr "പ്രാമാണീകരണം ആവശ്യമാണ്"
 
 #: qml/MobileQuickAuthDialog.qml:57 qml/QuickAuthDialog.qml:357
 #, kde-format
 msgid "Authentication failure, please try again."
-msgstr ""
+msgstr "പ്രാമാണീകരണം പരാജയപ്പെട്ടു, ദയവായി വീണ്ടും ശ്രമിക്കുക."
 
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "ഉപയോക്താവ്: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "മാറുക…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, kde-format
 msgid "Password…"
-msgstr ""
+msgstr "പാസ്‌വേഡ്…"
 
 #: qml/MobileQuickAuthDialog.qml:175
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "വിശദാംശങ്ങൾ"
 
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "ശരി"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "റദ്ദാക്കുക"
 
 #: qml/MobileQuickAuthDialog.qml:201 qml/QuickAuthDialog.qml:249
 #, kde-format
 msgid "Action:"
-msgstr ""
+msgstr "പ്രവർത്തനം:"
 
 #: qml/MobileQuickAuthDialog.qml:205 qml/QuickAuthDialog.qml:215
 #, kde-format
 msgid "ID:"
-msgstr ""
+msgstr "ഐഡി:"
 
 #: qml/MobileQuickAuthDialog.qml:209 qml/QuickAuthDialog.qml:226
 #, kde-format
 msgid "Vendor:"
-msgstr ""
+msgstr "വെണ്ടർ:"
 
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "ഉപയോക്തൃ അക്കൗണ്ട് നിയന്ത്രണം"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "തുടരാൻ, അഡ്മിനിസ്ട്രേറ്റർ പാസ്‌വേഡ് ടൈപ്പ് ചെയ്ത് ശരി ക്ലിക്ക് ചെയ്യുക."
 
 #, kde-format
 #~ msgctxt "EMAIL OF TRANSLATORS"

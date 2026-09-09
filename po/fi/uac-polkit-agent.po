@@ -130,12 +130,12 @@ msgstr "Toimittaja:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Käyttäjätilien valvonta"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Jatka kirjoittamalla järjestelmänvalvojan salasana ja napsauttamalla OK."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

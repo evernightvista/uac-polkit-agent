@@ -36,7 +36,7 @@ msgstr "(c) 2009 Red Hat, Inc."
 #: main.cpp:50
 #, kde-format
 msgid "Lukáš Tinkl"
-msgstr ""
+msgstr "Lukáš Tinkl"
 
 #: main.cpp:50
 #, kde-format
@@ -63,13 +63,13 @@ msgstr "Another client is already authenticating, please try again later."
 #, kde-format
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
-msgstr ""
+msgstr "دەلىللەش ئۈچۈن ھېچقانداق ئىشلەتكۈچى يوق. سىستېما كونفىگۇراتسىيەسىنى تەكشۈرۈڭ."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
 #, kde-format
 msgid "Authentication Required"
-msgstr ""
+msgstr "دەلىللەش تەلەپ قىلىنىدۇ"
 
 #: qml/MobileQuickAuthDialog.qml:57 qml/QuickAuthDialog.qml:357
 #, fuzzy, kde-format
@@ -80,12 +80,12 @@ msgstr "Another client is already authenticating, please try again later."
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "ئىشلەتكۈچى: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "ئالماشتۇرۇش…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -96,12 +96,12 @@ msgstr "ئىم:"
 #: qml/MobileQuickAuthDialog.qml:175
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "تەپسىلات"
 
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "ماقۇل"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
@@ -116,7 +116,7 @@ msgstr "ھەرىكەت:"
 #: qml/MobileQuickAuthDialog.qml:205 qml/QuickAuthDialog.qml:215
 #, kde-format
 msgid "ID:"
-msgstr ""
+msgstr "كىملىك:"
 
 #: qml/MobileQuickAuthDialog.qml:209 qml/QuickAuthDialog.qml:226
 #, kde-format
@@ -126,12 +126,12 @@ msgstr "زاۋۇت:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "ئىشلەتكۈچى ھېسابات كونترولى"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "داۋاملاشتۇرۇش ئۈچۈن، باشقۇرغۇچى پارولىنى كىرگۈزۈپ، ئاندىن ماقۇل نى چېكىڭ."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

@@ -126,12 +126,12 @@ msgstr "მომწოდებელი:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "მომხმარებლის ანგარიშების კონტროლი"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "გასაგრძელებლად შეიყვანეთ ადმინისტრატორის პაროლი და დააწკაპუნეთ დიახ-ზე."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

@@ -130,12 +130,12 @@ msgstr "Tiekėjas:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Vartotojo abonemento valdymas"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Norėdami tęsti, įveskite administratoriaus slaptažodį ir spustelėkite Gerai."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

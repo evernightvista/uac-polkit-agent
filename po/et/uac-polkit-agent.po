@@ -63,6 +63,8 @@ msgstr "Teine klient juba autendib, palun proovi hiljem uuesti."
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
 msgstr ""
+"Autentimiseks pole ühtegi kasutajat. Kontrollige oma süsteemi "
+"konfiguratsiooni."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
@@ -78,12 +80,12 @@ msgstr "Autentimine nurjus, palun proovi uuesti."
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Kasutaja: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Vaheta…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -99,7 +101,7 @@ msgstr "Üksikasjad"
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
@@ -124,12 +126,12 @@ msgstr "Tootja:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Kasutajakontode kontroll"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Jätkamiseks sisestage administraatori parool ja klõpsake nuppu OK."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

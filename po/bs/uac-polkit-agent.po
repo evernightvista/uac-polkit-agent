@@ -39,7 +39,7 @@ msgstr "(c) 2009 Red Hat, Inc."
 #: main.cpp:50
 #, kde-format
 msgid "Lukáš Tinkl"
-msgstr ""
+msgstr "Lukáš Tinkl"
 
 #: main.cpp:50
 #, kde-format
@@ -66,13 +66,13 @@ msgstr "Drugi klijent se već autentifikuje, pokušajte ponovo kasnije."
 #, kde-format
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
-msgstr ""
+msgstr "Nema korisnika za autentifikaciju. Provjerite konfiguraciju sistema."
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
 #, kde-format
 msgid "Authentication Required"
-msgstr ""
+msgstr "Potrebna je autentifikacija"
 
 #: qml/MobileQuickAuthDialog.qml:57 qml/QuickAuthDialog.qml:357
 #, kde-format
@@ -82,12 +82,12 @@ msgstr "Greška u provjeri autentičnosti, pokušajte ponovo"
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "Korisnik: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "Promijeni…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -98,12 +98,12 @@ msgstr "Lozinka:"
 #: qml/MobileQuickAuthDialog.qml:175
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "Detalji"
 
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "U redu"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
@@ -118,7 +118,7 @@ msgstr "Akcija:"
 #: qml/MobileQuickAuthDialog.qml:205 qml/QuickAuthDialog.qml:215
 #, kde-format
 msgid "ID:"
-msgstr ""
+msgstr "ID:"
 
 #: qml/MobileQuickAuthDialog.qml:209 qml/QuickAuthDialog.qml:226
 #, kde-format
@@ -128,12 +128,12 @@ msgstr "Proizvođač:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "Kontrola korisničkih računa"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "Za nastavak upišite administratorsku lozinku, a zatim kliknite na U redu."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

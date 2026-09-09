@@ -37,7 +37,7 @@ msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០៩ ដោ�
 #: main.cpp:50
 #, kde-format
 msgid "Lukáš Tinkl"
-msgstr ""
+msgstr "Lukáš Tinkl"
 
 #: main.cpp:50
 #, kde-format
@@ -65,12 +65,14 @@ msgstr "ម៉ាស៊ីន​ភ្ញៀវ​ផ្សេង​កំពុ
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
 msgstr ""
+"មិនមានអ្នកប្រើសម្រាប់ផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវទេ។ "
+"សូមពិនិត្យមើលការកំណត់រចនាសម្ព័ន្ធប្រព័ន្ធរបស់អ្នក។"
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
 #, kde-format
 msgid "Authentication Required"
-msgstr ""
+msgstr "ទាមទារការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ"
 
 #: qml/MobileQuickAuthDialog.qml:57 qml/QuickAuthDialog.qml:357
 #, kde-format
@@ -80,12 +82,12 @@ msgstr "កា​រ​ផ្ទៀងផ្ទាត់​ភាព​ត្រ
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "អ្នកប្រើ៖ %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "ប្ដូរ…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -96,12 +98,12 @@ msgstr "ពាក្យ​សម្ងាត់ ៖"
 #: qml/MobileQuickAuthDialog.qml:175
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "ព័ត៌មានលម្អិត"
 
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "យល់ព្រម"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
@@ -116,7 +118,7 @@ msgstr "សកម្មភាព ៖"
 #: qml/MobileQuickAuthDialog.qml:205 qml/QuickAuthDialog.qml:215
 #, kde-format
 msgid "ID:"
-msgstr ""
+msgstr "លេខសម្គាល់៖"
 
 #: qml/MobileQuickAuthDialog.qml:209 qml/QuickAuthDialog.qml:226
 #, kde-format
@@ -126,12 +128,12 @@ msgstr "ក្រុមហ៊ុនលក់ ៖"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "ការគ្រប់គ្រងគណនីអ្នកប្រើ"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "ដើម្បីបន្ត សូមវាយបញ្ចូលពាក្យសម្ងាត់អ្នកគ្រប់គ្រង រួចចុច យល់ព្រម។"
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

@@ -27,17 +27,17 @@ msgstr "प्रयोक्ताक चुनू"
 #, kde-format
 msgctxt "%1 is the full user name, %2 is the user login name"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: main.cpp:49
 #, kde-format
 msgid "(c) 2009 Red Hat, Inc."
-msgstr ""
+msgstr "© 2009 Red Hat, Inc."
 
 #: main.cpp:50
 #, kde-format
 msgid "Lukáš Tinkl"
-msgstr ""
+msgstr "Lukáš Tinkl"
 
 #: main.cpp:50
 #, kde-format
@@ -47,7 +47,7 @@ msgstr "अनुरक्षक"
 #: main.cpp:51
 #, kde-format
 msgid "Jaroslav Reznik"
-msgstr ""
+msgstr "Jaroslav Reznik"
 
 #: main.cpp:51
 #, fuzzy, kde-format
@@ -59,33 +59,37 @@ msgstr "अनुरक्षक"
 #, kde-format
 msgid "Another client is already authenticating, please try again later."
 msgstr ""
+"दोसर क्लाइंट पहिने सँ अधिप्रमाणन करि रहल अछि, कृपया किछु देर बाद फेर "
+"प्रयास करू।"
 
 #: policykitlistener.cpp:97
 #, kde-format
 msgctxt "Error response when polkit calls us with an empty list of identities"
 msgid "No user to authenticate as. Please check your system configuration."
 msgstr ""
+"अधिप्रमाणन करबाक लेल कोनो प्रयोक्ता नै अछि। कृपया अपन सिस्टम कॉन्फ़िगरेशन "
+"जाँच करू।"
 
 #: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
 #: QuickAuthDialog.cpp:115
 #, kde-format
 msgid "Authentication Required"
-msgstr ""
+msgstr "अधिप्रमाणन आवश्यक अछि"
 
 #: qml/MobileQuickAuthDialog.qml:57 qml/QuickAuthDialog.qml:357
 #, kde-format
 msgid "Authentication failure, please try again."
-msgstr ""
+msgstr "अधिप्रमाणन विफल भेल, कृपया फेर प्रयास करू।"
 
 #: qml/MobileQuickAuthDialog.qml:141
 #, kde-format
 msgid "User: %1"
-msgstr ""
+msgstr "प्रयोक्ता: %1"
 
 #: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:325
 #, kde-format
 msgid "Switch…"
-msgstr ""
+msgstr "बदलू…"
 
 #: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:339
 #, fuzzy, kde-format
@@ -96,12 +100,12 @@ msgstr "कूटशब्द: "
 #: qml/MobileQuickAuthDialog.qml:175
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "विवरण"
 
 #: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:396
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "ठीक अछि"
 
 #: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:409
 #, kde-format
@@ -116,7 +120,7 @@ msgstr "क्रिया:"
 #: qml/MobileQuickAuthDialog.qml:205 qml/QuickAuthDialog.qml:215
 #, kde-format
 msgid "ID:"
-msgstr ""
+msgstr "पहचान:"
 
 #: qml/MobileQuickAuthDialog.qml:209 qml/QuickAuthDialog.qml:226
 #, kde-format
@@ -126,12 +130,12 @@ msgstr "विक्रेता:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "प्रयोक्ता खाता नियंत्रण"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "आगा बढ़बाक लेल प्रशासक कूटशब्द टाइप करू आओर ओकर बाद ठीक अछि पर क्लिक करू।"
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

@@ -124,12 +124,12 @@ msgstr "विक्रेता:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "उपयोगकर्ता खाता नियंत्रण"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "जारी रखने के लिए, व्यवस्थापक पासवर्ड टाइप करें और फिर ठीक है क्लिक करें।"
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"

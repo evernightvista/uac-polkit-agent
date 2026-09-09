@@ -123,12 +123,12 @@ msgstr "제조사:"
 #: qml/QuickAuthDialog.qml:23
 #, kde-format
 msgid "User Account Control"
-msgstr ""
+msgstr "사용자 계정 컨트롤"
 
 #: qml/QuickAuthDialog.qml:271
 #, kde-format
 msgid "To continue, type an administrator password, and then click OK."
-msgstr ""
+msgstr "계속하려면 관리자 암호를 입력한 다음 확인을 클릭하십시오."
 
 #, kde-format
 #~ msgctxt "NAME OF TRANSLATORS"
