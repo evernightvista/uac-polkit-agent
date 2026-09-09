@@ -1,5 +1,5 @@
 [Unit]
-Description=AeroShell PolicyKit Authentication Agent
+Description=MiryuGaming UAC PolicyKit Authentication Agent
 PartOf=graphical-session.target
 After=plasma-core.target
 Conflicts=plasma-polkit-agent.target
@@ -11,3 +11,6 @@ Slice=background.slice
 TimeoutStopSec=5sec
 Restart=on-failure
 Environment="USE_UAC_AGENT=1"
+
+[Install]
+WantedBy=graphical-session.target
