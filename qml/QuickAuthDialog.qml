@@ -16,10 +16,15 @@ Kirigami.AbstractApplicationWindow {
     id: root
     title: i18n("User Account Control") //i18n("Authentication Required")
     minimumHeight: intendedWindowHeight
+    maximumHeight: intendedWindowHeight
     minimumWidth: intendedWindowWidth
     maximumWidth: intendedWindowWidth
     width: intendedWindowWidth
     height: intendedWindowHeight
+    // Setting both minimum and maximum to the same value makes the window
+    // fully fixed-size. KWin does not show a maximize button for a
+    // fixed-size window — the same approach used by the official
+    // polkit-kde-agent-1. Works on both Wayland and X11 sessions.
 
     property alias password: passwordField.text
     property alias identitiesModel: identitiesCombo.model
@@ -99,6 +104,15 @@ Kirigami.AbstractApplicationWindow {
     // maximum is unset so the window can grow when the identity list
     // expands inline (preventing text overlap from content overflow).
     readonly property real intendedWindowHeight: mainContent.implicitHeight + bottomControls.height + (Kirigami.Units.largeSpacing * 2)
+    // Qt window size properties don't always react to binding changes in
+    // real-time, so manually update them when the intended height changes
+    // (e.g. when the inline identity list expands). This mirrors the
+    // approach used by the official polkit-kde-agent-1.
+    onIntendedWindowHeightChanged: {
+        minimumHeight = intendedWindowHeight;
+        height = intendedWindowHeight;
+        maximumHeight = intendedWindowHeight;
+    }
 
     onActiveChanged: {
         if (active) {
@@ -194,6 +208,7 @@ Kirigami.AbstractApplicationWindow {
             RowLayout {
                 id: content
                 Layout.alignment: Qt.AlignLeft
+                Layout.fillWidth: true
                 Layout.leftMargin: 50
                 spacing: Kirigami.Units.largeSpacing * 3
 
@@ -206,6 +221,7 @@ Kirigami.AbstractApplicationWindow {
 
                 ColumnLayout {
                     spacing: 0
+                    Layout.fillWidth: true
 
                     Row {
                         spacing: 4
@@ -243,15 +259,18 @@ Kirigami.AbstractApplicationWindow {
                         }
                     }
 
-                    Row {
+                    RowLayout {
                         spacing: 4
+                        Layout.fillWidth: true
                         QQC2.Label {
                             text: i18n("Action:")
                             visible: root.sevenLike
                             color: themeTextColor
                         }
                         QQC2.Label {
+                            Layout.fillWidth: true
                             text: descriptionString
+                            wrapMode: Text.WordWrap
                             color: themeTextColor
                         }
                     }
